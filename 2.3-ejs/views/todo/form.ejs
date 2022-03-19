@@ -1,0 +1,24 @@
+<form method="POST" class="mt-5">
+    <div class="form-group">
+        <label for="inputTitle">Заголовок</label>
+        <input type="text"
+               value="<%= todo.title %>"
+               name="title"
+               class="form-control"
+               id="inputTitle">
+    </div>
+
+    <div class="form-group">
+        <label for="inputDesc">Описание</label>
+        <textarea
+                rows="3"
+                name="desc"
+                class="form-control"
+                id="inputDesc"
+        ><%= todo.desc %></textarea>
+    </div>
+
+    <div class="form-group text-right ">
+        <button type="submit" class="btn btn-primary">Сохранить</button>
+    </div>
+</form>

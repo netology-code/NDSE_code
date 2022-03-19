@@ -1,0 +1,15 @@
+{
+  "name": "demo-console",
+  "version": "1.0.0",
+  "description": "demo-console",
+  "main": "date.js",
+  "repository": "https://github.com/netology-code/ndse-code.git",
+  "bin": {
+    "simple-date": "./date.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
